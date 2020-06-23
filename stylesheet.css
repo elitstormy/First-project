@@ -1,0 +1,312 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+	
+	overflow-x: visible;
+	scroll-behavior: smooth;
+	
+}
+
+body {
+	font-family: Roboto,Arial,sans-serif;
+	color: rgb(206, 70, 122);
+	max-width: 100%;
+}
+  
+header {
+	width: 100vw;
+	height: 90vh;
+}
+
+nav {
+	width: 90%;
+	margin: 1vw auto;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: Copperplate Gothic Bold;
+	color: rgb(248, 14, 170);
+	font-size: 150%;
+	margin: 0px 10px;
+	letter-spacing: 1px;
+	
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.strapline-container {
+	border: 2px solid rgb(248, 14, 170);
+	width: 95vw;
+	height:90%;
+	margin: auto auto;
+	text-align: center;
+	background-image: url(./images/sample.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-strapline {
+	color: rgb(248, 14, 170);
+	font-size: 750%;
+	text-transform: uppercase;
+	margin: 40px 0px;
+	font-family: Copperplate Gothic Bold;
+}
+
+.second-strapline{
+	color: rgb(206, 70, 122);
+	font-size: 230%;
+	font-family: Copperplate Gothic italic;
+	font-style: italic;
+	margin: 5% 0px;
+}
+
+.section-title{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(248, 14, 170);
+	text-transform: uppercase;
+	font-size: 240%;
+	margin-bottom: 2vh;
+}
+
+.About-section{
+	width: 100vw;
+	height: fit-content;
+	margin-bottom: 4vh;
+}
+
+.about-container{
+	width: 90%;
+	height: max-content;
+	overflow: visible;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.left-box{
+	width: 55%;
+	text-align: justify;
+	line-height: 200%;
+	font-weight: bold;
+	letter-spacing: 0.8px;
+}
+
+.right-box{
+	width: 45%;
+	margin-left: 3%;
+}
+
+.top-row, .bottom-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.grid-image1{
+	width: 50%;
+	height: 220px;
+	background-image: url(./images/flygirl.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.grid-image2{
+	width: 50%;
+	height: 220px;
+	background-image: url(./images/whitedress.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.grid-image3{
+	width: 50%;
+	height: 220px;
+	background-image: url(./images/greyjumpsuit.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.grid-image4{
+	width: 50%;
+	height: 220px;
+	background-image: url(./images/shoppingbags.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.tbs-section{
+	width: 100vw;
+	height: fit-content;
+	margin-bottom: 4vh;
+
+}
+
+.image-container{
+	width: 100%;
+}
+
+.row-one, .row-two, .row-three{
+	width: 95%;
+	margin: 4px auto;
+	text-align: center;
+}
+
+
+.grid-item{
+	border: 2px solid rgb(248, 14, 170);
+	width: 30%;
+	height: 310px;
+	display: inline-block;
+	margin: 10px;
+	background-size: cover;
+	background-position: center;
+}
+
+.grid-item:hover {
+	opacity: 0.80;
+
+}
+
+#image1{
+	background-image: url(./images/mules.jpeg);
+}
+
+#image2{
+	background-image: url(./images/1500bags.jpeg);
+}
+
+#image3{
+	background-image: url(./images/completemen.jpeg);
+}
+
+#image4{
+	background-image: url(./images/brownboots.jpeg);
+}
+
+#image5{
+	background-image: url(./images/shoes.jpeg);
+}
+
+#image6{
+	background-image: url(./images/blackpumps.jpeg);
+}
+
+#image7{
+	background-image: url(./images/backpack.jpeg);
+}
+
+#image8{
+	background-image: url(./images/faddedshoes.jpeg);
+}
+
+#image9{
+	background-image: url(./images/accessories.jpeg);
+}
+
+.stores-section {
+	width: 100vw;
+	height: fit-content;
+	margin-top: 2vh;
+}
+
+.stores-container {
+	width: 90%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.store-div {
+
+	text-align: center;
+	width: 40vw;
+	letter-spacing: 0.2px;
+}
+
+h4 {
+	font-size: 170%;
+	color: rgb(248, 14, 170);
+	letter-spacing: 0.2px;
+}
+
+.contact-section {
+	text-align: center;
+	margin: 0px;
+	margin-top: 6vh;
+	width: 100vw;
+	height: fit-content;
+	background-color: rgb(248, 14, 170);
+	color: rgb(255, 255, 255);
+}
+	
+
+.contact-title {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color:  rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 240%;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+/*  
+.email {
+	font-size: 150%;
+}
+
+.social-item{
+	border: 2px ;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 2px;
+	background-size: cover;
+	background-color: oldlace;
+	background-position: center;
+}
+#IG {
+	background-image: url(./images/instagram.png); 
+}
+#Mail {
+	background-image: url(./images/Mail.png);
+}
+#Twitter {
+	background-image: url(./images/twitter.png);
+*/
+.contact {
+	font-size: 90%;
+	line-height: 150%;
+	letter-spacing: 0.5px;
+}
+a {
+	text-decoration: underline;
+	color: whitesmoke;
+	font-style: inherit;
+}
+
+a:hover {
+	color: hotpink;
+}
+
+.footnote{
+	text-align: center;
+	margin-top: 2vh;
+	font-weight: 100;
+	width: 100vw;
+	height: 2.5vh;
+	color: rgb(248, 14, 170);
+	background-color: rgb(255, 255, 255);
+	;
+}
