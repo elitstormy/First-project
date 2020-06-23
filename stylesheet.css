@@ -50,7 +50,7 @@ nav ul li a:hover {
 	height:90%;
 	margin: auto auto;
 	text-align: center;
-	background-image: url(./images/sample.jpeg);
+	background-image: url(./sample.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -117,7 +117,7 @@ nav ul li a:hover {
 .grid-image1{
 	width: 50%;
 	height: 220px;
-	background-image: url(./images/flygirl.jpeg);
+	background-image: url(./flygirl.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -125,7 +125,7 @@ nav ul li a:hover {
 .grid-image2{
 	width: 50%;
 	height: 220px;
-	background-image: url(./images/whitedress.jpeg);
+	background-image: url(./whitedress.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -133,7 +133,7 @@ nav ul li a:hover {
 .grid-image3{
 	width: 50%;
 	height: 220px;
-	background-image: url(./images/greyjumpsuit.jpeg);
+	background-image: url(./greyjumpsuit.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -141,7 +141,7 @@ nav ul li a:hover {
 .grid-image4{
 	width: 50%;
 	height: 220px;
-	background-image: url(./images/shoppingbags.jpeg);
+	background-image: url(./shoppingbags.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -180,39 +180,39 @@ nav ul li a:hover {
 }
 
 #image1{
-	background-image: url(./images/mules.jpeg);
+	background-image: url(./mules.jpeg);
 }
 
 #image2{
-	background-image: url(./images/1500bags.jpeg);
+	background-image: url(./1500bags.jpeg);
 }
 
 #image3{
-	background-image: url(./images/completemen.jpeg);
+	background-image: url(./completemen.jpeg);
 }
 
 #image4{
-	background-image: url(./images/brownboots.jpeg);
+	background-image: url(./brownboots.jpeg);
 }
 
 #image5{
-	background-image: url(./images/shoes.jpeg);
+	background-image: url(./shoes.jpeg);
 }
 
 #image6{
-	background-image: url(./images/blackpumps.jpeg);
+	background-image: url(./blackpumps.jpeg);
 }
 
 #image7{
-	background-image: url(./images/backpack.jpeg);
+	background-image: url(./backpack.jpeg);
 }
 
 #image8{
-	background-image: url(./images/faddedshoes.jpeg);
+	background-image: url(./faddedshoes.jpeg);
 }
 
 #image9{
-	background-image: url(./images/accessories.jpeg);
+	background-image: url(./accessories.jpeg);
 }
 
 .stores-section {
